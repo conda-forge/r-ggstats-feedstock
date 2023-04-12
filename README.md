@@ -1,11 +1,11 @@
-About r-ggstats
-===============
+About r-ggstats-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggstats-feedstock/blob/main/LICENSE.txt)
 
 Home: https://larmarange.github.io/ggstats/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-ggstats-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides suite of functions to plot regression model coefficients ("forest plots"). The suite also includes new statistics to compute proportions, weighted mean and cross-tabulation statistics, as well as new geometries to add alternative background color to a plot.
 
