@@ -26,25 +26,33 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-broom.helpers
+    - r-broom.helpers >=1.14.0
     - r-cli
     - r-dplyr
     - r-forcats
-    - r-ggplot2
+    - r-ggplot2 >=3.4.0
     - r-lifecycle
     - r-magrittr
+    - r-patchwork
+    - r-purrr
+    - r-rlang
     - r-scales
+    - r-stringr
     - r-tidyr
   run:
     - r-base
-    - r-broom.helpers
+    - r-broom.helpers >=1.14.0
     - r-cli
     - r-dplyr
     - r-forcats
-    - r-ggplot2
+    - r-ggplot2 >=3.4.0
     - r-lifecycle
     - r-magrittr
+    - r-patchwork
+    - r-purrr
+    - r-rlang
     - r-scales
+    - r-stringr
     - r-tidyr
 
 test:
@@ -56,7 +64,7 @@ about:
   home: https://larmarange.github.io/ggstats/
   dev_url: https://github.com/larmarange/ggstats/
   doc_url: https://larmarange.github.io/ggstats/reference/index.html
-  license: GPL-3.0-only
+  license: GPL-3.0-or-later
   summary: Provides suite of functions to plot regression model coefficients ("forest plots"). The suite also includes new statistics to compute proportions, weighted mean and cross-tabulation statistics, as well as new geometries to add alternative background color to a plot.
   license_family: GPL3
   license_file:
