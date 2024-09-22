@@ -1,4 +1,4 @@
-{% set version = "0.6.0" %}
+{% set version = "0.7.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/ggstats_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/ggstats/ggstats_{{ version }}.tar.gz
-  sha256: f80aaa229f542cb18174b9ab82b0026c6bd3331f22bf2662712ab6af480b6d80
+  sha256: e84cc52892c0e4f13a2700b448a589f6ecc816e7cf7cf5c2b4c1310d02d9f980
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
